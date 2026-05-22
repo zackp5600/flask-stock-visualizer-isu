@@ -10,11 +10,11 @@ app = Flask(__name__)
 def home_page():
     return render_template("home.html")
 
-@app.route("/login")
+@app.route("/login", methods=["POST", "GET"])
 def login():
     return render_template("login.html")
 
-@app.route("/signup")
+@app.route("/signup", methods=["POST", "GET"])
 def signup():
     return render_template("signup.html")
 
