@@ -14,21 +14,12 @@ body{
 
 h1{
     color: white;
-    margin-bottom: 5vh;
+    margin-bottom: 1vh;
     
 }
 
 h4{
     color: white;
-}
-
-.title{
-    padding: 5vh;
-    padding-bottom: 100vh;
-    /* margin: 3vh; */
-    width: 100vh;
-    background-color: rgba(13, 0, 255, 0.46);
-    border-radius: 10vh;
 }
 
 .top{
